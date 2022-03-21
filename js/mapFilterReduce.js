@@ -31,7 +31,7 @@ console.log('Array with under a ton animals:');
 console.log(underTonAnimals);
 
 // DIY - maak een array met alle animals met size 'small'
-const smallAnimals = animals.filter(({ size }) => size === 'small');
+const smallAnimals = undefined;
 console.log('Array with small animals:');
 console.log(smallAnimals);
 
@@ -46,11 +46,7 @@ console.log(`Names of animals: ${namesOfAnimals}`);
 // DIY - maak een array met nieuwe objectjes.
 // De objectjes bevatten dezelfde properties als die van onze animals
 // maar de size wordt nu S (ipv small), M (ipv medium), L (ipv big)
-const newAnimals = animals.map(({ name, size: oldSize, weight }) => ({
-  name,
-  size: oldSize === 'small' ? 'S' : oldSize === 'medium' ? 'M' : 'L',
-  weight
-}));
+const newAnimals = undefined;
 console.log('Array with new animals:');
 console.log(newAnimals);
 
