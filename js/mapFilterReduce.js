@@ -63,10 +63,7 @@ console.log(
 );
 
 // DIY - hoeveel animals hebben size die small is
-const numberOfSmallAnimals = animals.reduce(
-  (pv, { size }) => (size === 'small' ? ++pv : pv),
-  0
-);
+const numberOfSmallAnimals = undefined;
 console.log(`Number of small animals: ${numberOfSmallAnimals}`);
 
 // ====================================================
@@ -81,8 +78,5 @@ console.log(`Weight of small animals: ${weightSmallAnimals}`);
 
 // DIY - maak een string met de namen van alle 'small' animals,
 // zet een - tussen de namen
-const namesOfSmallAnimals = animals
-  .filter(({ size }) => size === 'small')
-  .map(({ name }) => name)
-  .join(' - ');
+const namesOfSmallAnimals = undefined;
 console.log(`Names of small animals: ${namesOfSmallAnimals}`);
