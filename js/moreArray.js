@@ -72,44 +72,8 @@ console.log(fruit.sort(sorterenOpAantalLetters));
 fruit.sort((a, b) => a.length - b.length);
 console.log(fruit);
 
-// Oefening
-// Sorteer de array animals op basis van gewicht: van lichter naar zwaarder
-const animals = [
-  {
-    name: "lion",
-    size: "medium",
-    weight: 150,
-  },
-  {
-    name: "dog",
-    size: "small",
-    weight: 10,
-  },
-  {
-    name: "elephant",
-    size: "big",
-    weight: 5000,
-  },
-  {
-    name: "cat",
-    size: "small",
-    weight: 5,
-  },
-];
 
 
-console.log(animals);
 
-// Oefening
-// Sorteer de onderstaande array op het aantal zijden
-let shapes = [
-  [5, "Pentagon"],
-  [3, "Triangle"],
-  [8, "Octagon"],
-  [4, "Rectangle"],
-];
-
-
-console.log(shapes);
 
 
